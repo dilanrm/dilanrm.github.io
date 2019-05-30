@@ -3,19 +3,16 @@ var currentUrl = window.location.pathname;
 if (currentUrl == '/project') {
     $(document).ready(function () {
         $('.navbar').hide();
-        $('#closeTab').hide();
     });
 } else if (currentUrl == '/resume') {
     $(document).ready(function () {
         $('.navbar').hide();
         $('.site-footer').hide();
-        $('#closeTab').show();
     });
 } else if (currentUrl == '/') {
     $(document).ready(function () {
         $('.navbar').show();
         $('.site-footer').show();
-        $('#closeTab').hide();
     });
 }
 
